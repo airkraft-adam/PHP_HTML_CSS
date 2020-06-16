@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<title></title>
+
+	</head>
+	<body>
+	<div id=okno>
+	<form action="formularz.php" method="POST">
+		<table id="tabelka">
+			<tr>
+				<td> Imię </td>
+				<td><input type="text" name="imie" autofocus/></td>
+			</tr>
+			
+			<tr>
+				<td> Nazwisko </td>
+				<td><input type="text" name="nazwisko"/></td>
+			</tr>
+			<tr>
+				<td> Płeć </td>
+				<td><input type="radio" name="plec" value="m" checked>M
+				<input type="radio" name="plec" value="k">K</td>
+			</tr>
+			<tr>
+				<td> Data urodzenia </td>
+				<td><input type="date" name="urodziny"/></td>
+			</tr>
+			<tr>
+				<td> E-mail </td>
+				<td><input type="email" name="email"/></td>
+			</tr>
+			<tr>
+				<td> Hasło </td>
+				<td><input type="password" name="haslo"/></td>
+			</tr>
+			<tr>
+				<td> Ulubiony kolor </td>
+				<td><input type="color" name="kolor"/></td>
+			</tr>
+			<tr>
+				<td> Ulubiona liczba (1 ~ 9)</td>
+				<td><input type="number" min="1" max="9" name="liczba"/></td>
+			</tr>
+			<tr>
+				<td> Ulubiona pora roku </td>
+				<td>
+					<input type="checkbox" name="pora1" value = "w"> Wiosna
+					<input type="checkbox" name="pora2" value = "l"> Lato <br>
+					<input type="checkbox" name="pora3" value = "j"> Jesień
+					<input type="checkbox" name="pora4" value = "z"> Zima
+				</td>
+			</tr>
+			<tr>
+				<td> Poziom zadowolenia z życia (0 ~ 100%) </td>
+				<td><input type="range" min="0" max="100" step="1" name="procent" value="75"/> %</td>
+			</tr>
+			<tr>
+				<td> Dzień kontaktu z klientem </td>
+				<td><select name="dzien">
+				<option value="pon">poniedziałek</option>
+				<option value="wt">wtorek</option>
+				<option value="sr">środa</option>
+				<option value="czw">czwartek</option>
+				<option value="pt">piątek</option>
+				<option value="sob">sobota</option>
+				<option value="nie">niedziela</option>
+				
+				
+				</td>
+			</tr>
+			<tr>
+				<td> Dodatkowe informacje o kliencie </td>
+			</tr>
+			</table>
+							<textarea cols="67" rows="10" name="text"></textarea><br>
+		<table>
+			<tr>
+				<td><input type="reset" /></td>
+				<td><input type="submit" /></td>
+			</tr>
+		</table>
+		
+	</form>
+	</div>
+	</body>
+</html>

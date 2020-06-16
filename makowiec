@@ -1,0 +1,31 @@
+
+
+body {
+		font-family: 'verdana', sans-serif;
+		text-align: justify;
+		background-color: green;
+		color:red;
+	}
+	
+
+h1, h2, h3, h4, h5,h6 {
+	font-variant: small-caps;
+	font-weight: bold;
+	color:red;
+}
+img{
+	float:right;
+	margin: 10px;
+}
+menu{
+	padding: 10px;
+	margin-left: 10px;
+	margin-right:10px;
+	background: green;
+	
+}
+naglowek{
+	color: darkgreen;
+	background-color: yellow;
+	text-align: center;
+}

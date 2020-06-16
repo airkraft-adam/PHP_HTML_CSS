@@ -1,0 +1,118 @@
+
+
+body {
+		font-family: 'verdana', sans-serif;
+		text-align: center;
+		background-color: #dddddd;
+		color:darkgreen;
+		
+	}
+#contener{
+margin-left: auto;
+margin-right: auto;
+width: 999px;
+background-color:#959595;
+
+}	
+	
+header {			
+	background-color:#747474;		
+	letter-spacing: 3px;
+	color: #234747;		
+padding-top:6px;
+	
+}
+#nawigacja{
+	background-color:#aaaaaa;
+
+	
+
+}
+#nawigacja a {
+	text-decoration:none;
+	color: #234747;
+		
+}
+.menu {
+	float:left;
+	width:331px;
+	min-height: 20px; 
+	font-size: 15px;		
+	border: 1px solid #333333;	
+	
+}
+.menu:hover{
+	background-color:#636363;
+}
+
+#glowny{
+ 
+ background-color:#787878;
+}
+article{
+	
+	width:797px;
+	float:left;
+	margin-top:10px;
+	margin-bottom: 10px;	
+	
+	
+		
+}
+section {
+	background-color:#858585;	
+padding-top:5px;
+padding-bottom: 10px;
+	
+	
+}
+.opis{
+	
+	
+	padding:20px;
+}
+h3 h2 {
+	color: #234747;
+}
+#zdj{
+	padding:10px;
+	
+}
+
+aside {
+	float:left;
+	max-width:182px;
+	margin: 10px;
+	background-color:#747474;	
+}
+#linki{
+	font-size:15px;
+	color: #234747;
+	font-weight: 700;
+}
+#linki a{
+	color: #234747;
+}
+#linki a:hover{
+	color: #345858;
+}
+#linki ul{
+	text-align: left;
+	list-style-type: square;
+	text-align: left:
+	
+}
+#reklama{
+	height: 600px;
+	width:180px;
+	border:1px solid black;
+	margin-top:50px;
+}
+
+footer{
+	clear:both;
+	background-color:#636363;
+	font-size: 25;	
+padding: 1px;
+	
+}

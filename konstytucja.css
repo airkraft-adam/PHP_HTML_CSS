@@ -1,0 +1,61 @@
+body{
+	font-family: Calibri;
+	margin:0px;
+	padding:0px;	
+	background-color: #88bbff;
+	min-width:480px;
+}
+header, footer{
+	background-color: #6b6b47;
+	color: #ff00aa;
+}
+h1, h2, h3, h4, h5, h6{
+	padding: 12px 6px;
+	font-style: italic;
+	font-style: bold;	
+}
+h1{
+	font-size: 36px;
+	text-align: center;
+}
+p{
+	text-indent: 1.5em;
+  margin: 0;
+  padding:6px;
+  text-align: justify;
+}
+img{
+	height: 240px;
+	float:right;
+	margin:6px;
+	}
+menu{
+	background-color:peru;
+	text-align: center;
+	line-height:12px;
+	padding:25px;
+}
+.menu{
+	background-color: yellow;
+	width: 120px;
+	text-align:center;
+	padding: 12px;
+	margin: 12px;
+	border-radius: 7px;
+}
+.menu a:link{
+text-decoration: none;
+
+}
+
+
+#wejscie{
+	background-color:#4B0082;
+	color:white;
+	opacity:0.5;
+	padding:6px;
+	width:180px;
+	position:fixed;
+    right:0;
+    bottom:0;
+}
